@@ -1,0 +1,207 @@
+{
+"段模板": [
+        {
+            "id": "常规前进",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5,
+            "template_type": "lane"
+        },
+        {
+            "id": "常规后退",
+            "motion_type": -1,
+            "p1": -2,
+            "speed": 0.5,
+            "template_type": "lane"
+        },
+        {
+            "id": "模板绑定",
+            "subType": [
+                {
+                    "id": 1,
+                    "lane_template": "常规前进"
+                },
+                {
+                    "id": 2,
+                    "lane_template": "常规前进"
+                },
+                {
+                    "id": 3,
+                    "lane_template": "常规前进"
+                },
+                {
+                    "id": 4,
+                    "lane_template": "常规前进"
+                },
+                {
+                    "id": 5,
+                    "lane_template": "常规前进"
+                },
+                {
+                    "id": 6,
+                    "lane_template": "常规前进"
+                },
+                {
+                    "id": 7,
+                    "lane_template": "常规前进"
+                }
+            ]
+        }
+    ],
+    "lanes": [
+        {
+            "BNID": 1,
+            "FNID": 2,
+            "id": 1,
+            "lane_type": "line",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 2,
+            "FNID": 3,
+            "id": 2,
+            "lane_type": "line",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 3,
+            "FNID": 4,
+            "id": 3,
+            "lane_type": "line",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 4,
+            "FNID": 5,
+            "id": 4,
+            "lane_type": "bezier",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 5,
+            "FNID": 6,
+            "id": 5,
+            "lane_type": "bezier",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 6,
+            "FNID": 7,
+            "id": 6,
+            "lane_type": "bezier",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 7,
+            "FNID": 8,
+            "id": 7,
+            "lane_type": "bezier",
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 1,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 3.8,
+            "y": 20,
+            "yaw": 30.96375653207328
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 2,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 7.45,
+            "y": 20.15,
+            "yaw": 0
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 3,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 11.15,
+            "y": 18.45,
+            "yaw": -128.65980825409025
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 4,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 8,
+            "y": 16.15,
+            "yaw": -158.1985905136486
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 5,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 4.2,
+            "y": 15.25,
+            "yaw": -162.8972710309477
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 6,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 1.85,
+            "y": 14.85,
+            "yaw": -173.08877288097537
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 7,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": -1.55,
+            "y": 14.75,
+            "yaw": 174.80557109226518
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 8,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": -4.15,
+            "y": 15.3,
+            "yaw": 0
+        }
+    ]
+    
+}

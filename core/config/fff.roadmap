@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "dddddd",
+        "parameters": [
+            1,
+            2,
+            3
+        ],
+        "parent": {
+            "name": "parent",
+            "value": 33
+        },
+        "readonly": false,
+        "subType": [
+            {
+                "name": "555",
+                "value": 11
+            },
+            {
+                "name": "55555",
+                "value": 22
+            }
+        ]
+    }
+]

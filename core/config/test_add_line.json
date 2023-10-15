@@ -1,0 +1,212 @@
+{
+    "lanes": [
+        {
+            "BNID": 1,
+            "FNID": 2,
+            "id": 1,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 2,
+            "FNID": 7,
+            "id": 2,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 7,
+            "FNID": 6,
+            "id": 3,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 6,
+            "FNID": 5,
+            "id": 4,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 5,
+            "FNID": 4,
+            "id": 5,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 4,
+            "FNID": 9,
+            "id": 6,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 9,
+            "FNID": 10,
+            "id": 7,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 10,
+            "FNID": 11,
+            "id": 8,
+            "lane_type": "line",
+            "motion_type": 1
+        },
+        {
+            "BNID": 11,
+            "FNID": 3,
+            "id": 9,
+            "lane_type": "line",
+            "motion_type": 1
+        }
+    ],
+    "nodes": [
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 1,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 4.35,
+            "y": 22.55,
+            "yaw": 90
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 2,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 11.3,
+            "y": 19.5,
+            "yaw": 0
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 3,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 16.65,
+            "y": 13.25,
+            "yaw": 0
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 4,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 10.4,
+            "y": 7.45,
+            "yaw": -153.43494882292202
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 5,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 5.35,
+            "y": 11.65,
+            "yaw": 135
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 6,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 2.95,
+            "y": 14.8,
+            "yaw": 146.30993247402026
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 7,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": -0.15,
+            "y": 16.45,
+            "yaw": -113.96248897457824
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 8,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": -2.25,
+            "y": 12.5,
+            "yaw": -81.3843518158359
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 9,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 6.9,
+            "y": 5.65,
+            "yaw": -116.56505117707819
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 10,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 15.95,
+            "y": 1.95,
+            "yaw": 0
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 11,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 22,
+            "y": 7.75,
+            "yaw": 90
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 12,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 22.25,
+            "y": 18.85,
+            "yaw": 90
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 13,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 21.9,
+            "y": 23.45,
+            "yaw": 134.99999999999795
+        }
+    ]
+}

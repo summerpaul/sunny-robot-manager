@@ -1,0 +1,130 @@
+{
+    "lanes": [
+        {
+            "BNID": 1,
+            "FNID": 2,
+            "id": 1,
+            "lane_type": "line",
+            "length": 5.403590874339216,
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 2,
+            "FNID": 3,
+            "id": 2,
+            "lane_type": "line",
+            "length": 2.4390213280752233,
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 3,
+            "FNID": 4,
+            "id": 3,
+            "lane_type": "line",
+            "length": 5.456985801323639,
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        },
+        {
+            "BNID": 4,
+            "FNID": 1,
+            "id": 4,
+            "lane_type": "line",
+            "length": 2.3431609913337015,
+            "motion_type": 1,
+            "p1": 2,
+            "speed": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 1,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": -0.5021574128764089,
+            "y": -0.21362614388894946,
+            "yaw": 2.852254413817584
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 2,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 4.882850006059137,
+            "y": 0.23413432248920713,
+            "yaw": 4.3861461216531294
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 3,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": 4.674041318687718,
+            "y": 2.6642009822506325,
+            "yaw": 94.79384338924675
+        },
+        {
+            "ahead_node": 0,
+            "description": "RoadPoint",
+            "id": 4,
+            "mark_pose": 0,
+            "post_node": 0,
+            "type": 0,
+            "x": -0.7553205747871358,
+            "y": 2.1158183917802944,
+            "yaw": -175.60414713602958
+        }
+    ],
+    "段模板": {
+        "id": "段模板",
+        "subType": [
+            {
+                "id": "常规前进",
+                "motion_type": 1,
+                "p1": 2,
+                "speed": 0.5,
+                "template_type": "lane"
+            },
+            {
+                "id": "常规后退",
+                "motion_type": -1,
+                "p1": -2,
+                "speed": 0.5,
+                "template_type": "lane"
+            },
+            {
+                "id": "模板绑定",
+                "subType": [
+                    {
+                        "id": 1,
+                        "lane_template": "常规前进"
+                    },
+                    {
+                        "id": 2,
+                        "lane_template": "常规前进"
+                    },
+                    {
+                        "id": 3,
+                        "lane_template": "常规前进"
+                    },
+                    {
+                        "id": 4,
+                        "lane_template": "常规前进"
+                    }
+                ]
+            }
+        ]
+    }
+}
